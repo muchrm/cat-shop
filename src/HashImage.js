@@ -14,7 +14,7 @@ class HashImage extends Component {
             <div className="hash-image">
                 <div
                     className="hash-image-accessories"
-                    style={{ backgroundImage: `url(${require(`./image/accessories/${this.sumHash(6) %16}.png`)})` }}>
+                    style={{ backgroundImage: `url(${require(`./image/accessories/${this.sumHash(4) %16}.png`)})` }}>
                 </div>
                 <div
                     className="hash-image-body"
